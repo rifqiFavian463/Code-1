@@ -152,6 +152,9 @@ form button {
     border:none;
 
 }
+.nav-links .logo {
+    display: none;
+}
 .navbar .fas{
     color: white;
     display: none;
@@ -177,9 +180,9 @@ form button {
         width: 200px;
         top: 0;
         right: 0; 
-        text-align: left;
+        text-align: center;
         box-sizing: border-box; 
-        transition: right 0.7s ease;
+        transition: right 1s ease;
         display: none;  
     }
     .nav-links .logo{
@@ -201,7 +204,8 @@ form button {
         margin:10px 20px;
         display : block;
         box-sizing: border-box;
-        text-align: center;  
+        text-align: center; 
+        margin: auto; 
         
     }
     .nav-links .fa-times{
